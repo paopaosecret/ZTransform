@@ -4,7 +4,7 @@ gradlePlugin {
     plugins {
         addTryCatchPlugin { //transform task的名字，随便起的
             id = 'add-trycatch' //插件的id，与应用插件时写的 apply plugin: 'add-trycatch' 名字要一致
-            implementationClass = 'com.addtrycatch.AddTryCatchPlugin' //插件具体实现类的类名
+            implementationClass = 'com.xbing.zhaobing04.AddTryCatchPlugin' //插件具体实现类的类名
         }
     }
 }
