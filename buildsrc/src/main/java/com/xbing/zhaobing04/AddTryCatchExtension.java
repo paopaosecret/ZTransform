@@ -6,4 +6,12 @@ import java.util.Map;
 public class AddTryCatchExtension {
     public Map<String, List<String>> hookPoint;
     public Map<String, String>       exceptionHandler;
+
+    @Override
+    public String toString() {
+        return "AddTryCatchExtension{" +
+                "hookPoint=" + hookPoint +
+                ", exceptionHandler=" + exceptionHandler +
+                '}';
+    }
 }

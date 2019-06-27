@@ -13,7 +13,6 @@ class AddTryCatchAdviceAdapter extends AdviceAdapter {
     Label l2;
     private String exceptionHandleClass;
     private String exceptionHandleMethod;
-    MethodVisitor mv;
 
     protected AddTryCatchAdviceAdapter(int api, MethodVisitor mv, int access, String name, String desc) {
         super(api, mv, access, name, desc);
